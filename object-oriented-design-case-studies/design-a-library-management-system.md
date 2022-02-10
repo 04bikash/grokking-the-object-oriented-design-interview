@@ -191,7 +191,7 @@ public class Constants {
 **Account, Member, and Librarian:** These classes represent various people that interact with our system:
 
 **Code Snippet:**
-```python
+```java
 // For simplicity, we are not defining getter and setter functions. The reader can
 // assume that all class attributes are private and accessed through their respective
 // public getter methods and modified only through their public methods function.
@@ -295,6 +295,7 @@ public class Member extends Account {
 **BookReservation, BookLending, and Fine:** These classes represent a book reservation, lending, and fine collection, respectively.
 
 **Code Snippet:**
+```java
 public class BookReservation {
   private Date creationDate;
   private ReservationStatus status;
@@ -329,6 +330,7 @@ public class Fine {
 **BookItem:** Encapsulating a book item, this class will be responsible for processing the reservation, return, and renewal of a book item.
 
 **Code Snippet:**
+```java
 public abstract class Book {
   private String ISBN;
   private String title;
@@ -375,6 +377,7 @@ public class Rack {
 **Search interface and Catalog:** The Catalog class will implement the Search interface to facilitate searching of books.
 
 **Code Snippet:**
+```java
 public interface Search {
   public List<Book> searchByTitle(String title);
   public List<Book> searchByAuthor(String author);
