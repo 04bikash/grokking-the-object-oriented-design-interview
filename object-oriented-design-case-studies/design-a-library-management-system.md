@@ -132,6 +132,7 @@ Note: This code only focuses on the design part of the use cases. Since you are 
 **Enums and Constants:** Here are the required enums, data types, and constants:
 
 **Code Snippet:**
+```java
 public enum BookFormat {
   HARDCOVER,
   PAPERBACK,
